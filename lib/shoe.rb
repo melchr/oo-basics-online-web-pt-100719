@@ -6,7 +6,7 @@ class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
   
   def cobble
-   
+    self.condition = "new"
     puts "The shoe has been repaired"
   end
 end
